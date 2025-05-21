@@ -1,7 +1,7 @@
 document.body.style.border = "5px solid red";
 
 
-const source = document.querySelector("div.moz24-newsletter-wrapper");
+const source = document.querySelector("body");
 
 source.addEventListener("copy", (event) => {
     const selection = document.getSelection();
